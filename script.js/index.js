@@ -28,7 +28,7 @@ btnCheck.addEventListener("click",function(){
     }
   }
   else if(score > 1){
-    (guess < secretNumber ? document.querySelector(".message").textContent=" Number is Too low try higher number " :document.querySelector(".message").textContent=" Number is Too low try higher number ");
+    (guess < secretNumber ? document.querySelector(".message").textContent=" Number is Too low try higher number " : document.querySelector(".message").textContent=" Number is Too high  try smaller  number ");
     score--;
     scoreEl.textContent = score;
     guessEl.value = null;
